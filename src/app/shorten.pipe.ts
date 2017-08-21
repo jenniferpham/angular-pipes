@@ -1,7 +1,7 @@
 import { Pipe, PipeTransform } from '@angular/core';
 
 @Pipe({
-    name: 'shorten'
+    name: 'shorten' //name to use inside of the expression in html to use this pipe
 })
 
 export class ShortenPipe implements PipeTransform {
